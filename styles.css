@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DeSaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+/* Headings, Call-to-actions, Header Navigation */
+h1, h2, nav {
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  max-width: 50%;
+}
+
+button:hover {
+  background-color: rgba(58, 61, 233, 0.623);
+}
+
+.social-icons {
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: .3rem .6rem;
+}
+.white-logo {
+    filter: brightness(0) invert(1);
+}
+
